@@ -12,17 +12,14 @@ This template is based on [WhatATheme](https://github.com/thedevslot/WhatATheme)
 - Changed text alignment of the project pages from center to left.
 - Replaced lorem ipsum dummy text with [office ipsum](http://officeipsum.com/index.php).
 - Removed opacity and blur settings of the hero image.
-- Unified background image of the 404 page the homepage.
+- Unified background image of the 404 page and the homepage.
 
 The contents of this repo represent the expected end result from a workshop entitled **Creating a Tech Writing Portfolio with Docs as Code Tooling**. 
 
 
 ## What you'll need?
 
--	Text editor – Notepad++, Sublime Text, Atom, Visual Studio Code, etc. will do.
--	Git – a popular version control system. For Windows: https://gitforwindows.org/. For Mac: https://git-scm.com/download/mac.
--	GitHub profile – Go to https://github.com and create a profile if you don’t have one yet.
--	Jekyll – it’s one of the most mature static site generators, has detailed documentation and big community to ask for support, and it’s extremely simple to get started with it. https://jekyllrb.com/docs/installation/windows/ provides installation instructions for windows users and https://jekyllrb.com/docs/installation/macos/ provides installation instructions for Mac users.
+Checkout [Creating a Tech Writing Portfolio with Docs as Code Tooling - What You Will Need](https://slavipande.github.io/Workshop-TechWritingPortfolio/blog/what-you-will-need) for more details.
 
 
 ## How to use this template?
