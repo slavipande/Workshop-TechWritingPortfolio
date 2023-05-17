@@ -1,5 +1,5 @@
 ---
-title: What You Will Need
+title: Creating a Tech Writing Portfolio with Docs as Code Tooling - What You Will Need
 layout: post
 post-image: "/Workshop-TechWritingPortfolio/assets/images/undraw_Code_thinking_re_gka2.png"
 description: There are some prerequisites that would be required so you can follow the demo parts of the workshop.
@@ -10,10 +10,12 @@ tags:
 - prerequisites
 ---
 
--	Text editor – Notepad++, Sublime Text, Atom, Visual Studio Code, etc. will do.
--	Git – a popular version control system. For Windows: https://gitforwindows.org/. For Mac: https://git-scm.com/download/mac.
--	GitHub profile – Go to https://github.com and create a profile if you don’t have one yet.
+-	Text editor – Notepad++, Sublime Text, Atom, Visual Studio Code, etc. will do.  --> `add here more details, how to check for installations, which one is recommended, what features should it provide, etc.`
+-	Git – a popular version control system. For Windows: https://gitforwindows.org/. For Mac: https://git-scm.com/download/mac. --> `add here more details on how to check if the software is installed locally, if Yes/NO, what, etc.`
+-	GitHub profile – Go to https://github.com and create a profile if you don’t have one yet. --> `same here, if applicable`
 
+
+Jekyll - it’s one of the most mature static site generators, has detailed documentation and big community to ask for support, and it’s extremely simple to get started with it. https://jekyllrb.com/docs/installation/windows/ provides installation instructions for windows users and https://jekyllrb.com/docs/installation/macos/ provides installation instructions for Mac users.
 
 
 Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind GitHub Pages, which you can use to host sites right from your GitHub repositories and if you don't know what GitHub Pages are you can visit on click [here](https://help.github.com/en/github/working-with-github-pages/about-github-pages){:target="blank"} or [here](https://pages.github.com/){:target="blank"}
