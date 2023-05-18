@@ -32,7 +32,7 @@ Checkout [Creating a Tech Writing Portfolio with Docs as Code Tooling - What You
 
 3. Run `bundle install` in your local project folder. 
 
-    > You must have Jekyll installed before running this command --> Go back to [What you'll need?](https://github.com/slavipande/Workshop-TechWritingPortfolio.git)
+    > You must have Jekyll installed before running this command --> Go back to [What you'll need?](https://github.com/slavipande/Workshop-TechWritingPortfolio#what-youll-need)
 
 4. Run `bundle exec jekyll serve` in your local project folder. 
 
