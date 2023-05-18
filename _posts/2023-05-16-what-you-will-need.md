@@ -38,7 +38,6 @@ To install VS Code:
 
 2. (macOS only) In VS Code, invoke the Command Palette (**View** &rarr; **Command Palette** or **⇧⌘P**) and type `shell command` to find the shell command: `Install 'code' command in PATH`.
 
-
 3. (macOS only) Restart VS Code for the new `$PATH` value to take effect.
 
 ## Git
@@ -48,9 +47,7 @@ Git is a popular version control system. We'll use it for the purposes of this w
 1. Download Git and install.
 
     - If you're using Windows, download from [Git for Windows](https://gitforwindows.org/). 
-    
     - If you're using a Mac, download from [Download for macOS](https://git-scm.com/download/mac).
-
 
 2. Verify you already have Git installed.
 
@@ -78,16 +75,16 @@ Jekyll is a Ruby gem that can be installed on most systems. Gems are code you ca
 
 1. Check and install requirements.
 
-    - [Ruby](https://www.ruby-lang.org/en/downloads/) version 2.5.0 or above, including all development headers. Run `ruby -v` to check current ruby version.
+    - [Ruby](https://www.ruby-lang.org/en/downloads/) version 2.5.0 or above, including all development headers. Run `ruby -v` to check current Ruby version.
     - [Ruby gems](https://rubygems.org/pages/download). Run `gem -v` to check current gems version.
-    - [GCC](https://gcc.gnu.org/install/) and [Make](https://www.gnu.org/software/make/)
+    - [GCC](https://gcc.gnu.org/install/) and [Make](https://www.gnu.org/software/make/).
 
 
 
 2. Install Jekyll
 
-    - For Windows, follow the instructions at [Jekyll on Windows](https://jekyllrb.com/docs/installation/windows/)
-    - For macOS, follow the instructions at [Jekyll on macOS](jekyllrb.com/docs/installation/macos/)
+    - For Windows, follow the instructions at [Jekyll on Windows](https://jekyllrb.com/docs/installation/windows/).
+    - For macOS, follow the instructions at [Jekyll on macOS](jekyllrb.com/docs/installation/macos/).
 
 
 3. Verify that you already have Jekyll installed.
