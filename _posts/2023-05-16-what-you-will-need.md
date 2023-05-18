@@ -2,7 +2,7 @@
 title: Creating a Tech Writing Portfolio with Docs as Code Tooling - What You Will Need
 layout: post
 post-image: "/Workshop-TechWritingPortfolio/assets/images/undraw_Code_thinking_re_gka2.png"
-description: There are some prerequisites that would be required so you can follow the demo parts of the workshop.
+description: 
 tags:
 - docs-as-code
 - portfolio
@@ -10,49 +10,90 @@ tags:
 - prerequisites
 ---
 
--	Text editor – Notepad++, Sublime Text, Atom, Visual Studio Code, etc. will do.  --> `add here more details, how to check for installations, which one is recommended, what features should it provide, etc.`
--	Git – a popular version control system. For Windows: https://gitforwindows.org/. For Mac: https://git-scm.com/download/mac. --> `add here more details on how to check if the software is installed locally, if Yes/NO, what, etc.`
--	GitHub profile – Go to https://github.com and create a profile if you don’t have one yet. --> `same here, if applicable`
+You'll need a few things so you can follow along the steps of the workshop. Here's a list of them and some additional info how to install them.
+
+- Text editor
+- Git
+- GitHub profile
+- Jekyll
+
+## Text Editor
+
+Any text/source code editor that enables you to create and edit markdown, HTML, and CSS files will do. Examples: Notepad++, Sublime Text, Atom, VS Code. There's probably a dozen more out there, too. 
+
+As a general recommendation, choose one that combines several features for which you'll otherwise have to use different tools. Here's what I mean: when working in a docs-as-code setup, I edit in markdown, often look through source code files as part of my daily job, build local previews of whatever I'm working on, and, last but not least, push my changes to GitHub whenever I'm done. In the past, I used a text editor to open and edit files, terminal to build my local previews, and GitHub Desktop to manage my commits. This is 3 separate tools just for this workflow. Add to that any other tools needed for the job (e.g., a screen capture tool, a diagram tool, etc). By switching to Atom or VS Code, I was able to reduce the number of tools I have to switch between every day. 
+
+I'm currenty using VS Code. Apart from the fact that I’m already used to it 😊, here are some other things I like about it:
+
+- It's easy to find solutions to any issue as there’s plenty of info on the Internet.
+- Integrated terminal, helps to minimize switching between windows.
+- Plenty of extensions available, which allows for great customization and performance of variety of tasks with it. For example, I’ve installed extensions for markdown to PDF (great for quick notes and feedback files) and markdown to diagrams. So, just working in markdown as the source I’m able to create output in multiple formats. Both tasks I had to perform in different programs before which wasted time, not to mention context switching because the source there is not markdown.
+- VS Code also has a built-in version control feature, much like Atom. I generally use this to manage my commits although I also sometimes do it through the terminal. 
+
+To install VS Code:
+
+1. Go to the [VS Code homepage](https://code.visualstudio.com/) and find the version appropriate for your operating system.
+
+1. (macOS only) Move VS Code from your **Download** folder to the **Applications** folder.
+
+2. (macOS only) In VS Code, invoke the Command Palette (**View** &rarr; **Command Palette** or **⇧⌘P**) and type `shell command` to find the shell command: `Install 'code' command in PATH`.
 
 
-Jekyll - it’s one of the most mature static site generators, has detailed documentation and big community to ask for support, and it’s extremely simple to get started with it. https://jekyllrb.com/docs/installation/windows/ provides installation instructions for windows users and https://jekyllrb.com/docs/installation/macos/ provides installation instructions for Mac users.
+3. (macOS only) Restart VS Code for the new `$PATH` value to take effect.
+
+## Git
+
+Git is a popular version control system. We'll use it for the purposes of this workshop, too. 
+
+1. Download Git and install.
+
+    - If you're using Windows, download from [Git for Windows](https://gitforwindows.org/). 
+    
+    - If you're using a Mac, download from [Download for macOS](https://git-scm.com/download/mac).
 
 
-Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind GitHub Pages, which you can use to host sites right from your GitHub repositories and if you don't know what GitHub Pages are you can visit on click [here](https://help.github.com/en/github/working-with-github-pages/about-github-pages){:target="blank"} or [here](https://pages.github.com/){:target="blank"}
-###### Source : [`Jekyll Docs`](https://jekyllrb.com/docs/)
+2. Verify you already have Git installed.
 
-> ### To know more and get started with Jekyll you can click [here](https://jekyllrb.com/){:targe="_blank"}
-	
-# Installation
-**Jekyll is a Ruby Gem that can be installed on most systems.**
-### Requirements
-* [Ruby](https://www.ruby-lang.org/en/downloads/){:target="_blank"} version 2.5.0 or above, including all development headers (ruby version can be checked by running ruby -v)
-* [Ruby Gems](https://rubygems.org/pages/download){:target="_blank"} (which you can check by running gem -v)
-* [GCC](https://gcc.gnu.org/install/){:target="_blank"} and [Make](https://www.gnu.org/software/make/){:target="_blank"}
+    `git version`
 
-### After Installing the Requirements you can follow these guides:
-**For detailed install instructions have a look at the guide for your operating system.**
-* [macOS](https://jekyllrb.com/docs/installation/macos/){:target="_blank"}
-* [Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/){:target="_blank"}
-* [Other Linux Distros](https://jekyllrb.com/docs/installation/other-linux/){:target="_blank"}
-* [Windows](https://jekyllrb.com/docs/installation/windows/){:target="_blank"}
+    You should get an output like:
 
-### Creating a new Jekyll site
-**We can create a new Jekyll site just by a simple command:**<br>
-> # `jekyll new my-site`
+    `git version 2.x.x`
 
-Jekyll will create a new directory named as `my-site` which is customizable (i.e., you can change the name from `my-site` to anything you want for example `jekyll new brutus`).
 
-### Changing into the Directory
-**We have to go inside the directory:**<br>
-> # `cd my-site`
+## GitHub profile
 
-Again, `my-site` is just a random name which is customizable.
+Using GitHub is a major part of the workshop. Go to [https://github.com](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) and create a profile if you don’t have one yet. You'll need the GitHub profile to:
 
-### Building the site and making it available on a local server
-> # `bundle exec jekyll serve`
+1. Make a copy of an existing GitHub repo in your GitHub account(i.e., fork).
+2. Clone your fork locally.
+3. Push your local changes to GitHub.
+4. Publish your tech writing portfolio using GitHub Pages.
 
-### Browsing your Jekyll site
-> # Browse to [`http://localhost:4000/`](http://localhost:4000/){:target="_blank"}
+## Jekyll
 
-###### On encountering any problem while building and serving your Jekyll site you can consider visiting to the [troubleshooting](https://jekyllrb.com/docs/troubleshooting/#configuration-problems){:target="_blank"} page
+Jekyll is one of the most mature static site generators. It has detailed documentation and big community to ask for support. It's also extremely simple to get started with it.
+
+Jekyll is a Ruby gem that can be installed on most systems. Gems are code you can include in Ruby projects. Gems package specific functionality. You can share gems across multiple projects or with other people. (Source: [`Jekyll Docs`](https://jekyllrb.com/docs/))
+
+1. Check and install requirements.
+
+    - [Ruby](https://www.ruby-lang.org/en/downloads/) version 2.5.0 or above, including all development headers. Run `ruby -v` to check current ruby version.
+    - [Ruby gems](https://rubygems.org/pages/download). Run `gem -v` to check current gems version.
+    - [GCC](https://gcc.gnu.org/install/) and [Make](https://www.gnu.org/software/make/)
+
+
+
+2. Install Jekyll
+
+    - For Windows, follow the instructions at [Jekyll on Windows](https://jekyllrb.com/docs/installation/windows/)
+    - For macOS, follow the instructions at [Jekyll on macOS](jekyllrb.com/docs/installation/macos/)
+
+
+3. Verify that you already have Jekyll installed.
+
+    `jekyll -v` or `bundle exec jekyll -v`
+
+    You should get an output like: 
+
+    `jekyll 4.x.x`
