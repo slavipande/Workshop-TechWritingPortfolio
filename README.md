@@ -28,9 +28,11 @@ Checkout [Creating a Tech Writing Portfolio with Docs as Code Tooling - What You
 
 2. Clone your fork locally.
 
+    `git clone https://github.com/<your-github-username>/Workshop-TechWritingPortfolio.git`
+
 3. Run `bundle install` in your local project folder. 
 
-    > You must have Jekyll installed before running this command --> [Jekyll Installation](https://jekyllrb.com/docs/installation/).
+    > You must have Jekyll installed before running this command --> Go back to [What you'll need?](https://github.com/slavipande/Workshop-TechWritingPortfolio.git)
 
 4. Run `bundle exec jekyll serve` in your local project folder. 
 
