@@ -17,12 +17,12 @@ This template is based on [WhatATheme](https://github.com/thedevslot/WhatATheme)
 The contents of this repo represent the expected end result from a workshop entitled **Creating a Tech Writing Portfolio with Docs as Code Tooling**. 
 
 
-## What you'll need?
+## What You'll Need?
 
-Checkout [Creating a Tech Writing Portfolio with Docs as Code Tooling - What You Will Need](https://slavipande.github.io/Workshop-TechWritingPortfolio/blog/what-you-will-need) for more details.
+Checkout [Creating a Tech Writing Portfolio with Docs as Code Tooling - Preliminary Setup](https://slavipande.github.io/Workshop-TechWritingPortfolio/blog/preliminary-setup) for more details.
 
 
-## How to use this template?
+## How to Use This Template?
 
 1. Fork this repo.
 
@@ -32,7 +32,7 @@ Checkout [Creating a Tech Writing Portfolio with Docs as Code Tooling - What You
 
 3. Run `bundle install` in your local project folder. 
 
-    > You must have Jekyll installed before running this command --> Go back to [What you'll need?](https://github.com/slavipande/Workshop-TechWritingPortfolio#what-youll-need)
+    > You must have Jekyll installed before running this command --> Go back to [What You'll Need?](https://github.com/slavipande/Workshop-TechWritingPortfolio#what-youll-need)
 
 4. Run `bundle exec jekyll serve` in your local project folder. 
 
