@@ -1,7 +1,7 @@
 ---
 title: Creating a Tech Writing Portfolio with Docs as Code Tooling - Preliminary Setup
 layout: post
-post-image: "/assets/images/undraw_Code_thinking_re_gka2.png"
+post-image: "../assets/images/undraw_Code_thinking_re_gka2.png"
 description: 
 tags:
 - ETC_Sofia
