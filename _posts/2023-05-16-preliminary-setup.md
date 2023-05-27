@@ -13,9 +13,9 @@ tags:
 You'll need a few things so you can follow along the steps of the workshop. Here's a list of them and some additional info how to install them.
 
 - Text editor
-- Git
+- Git --> Open a command prompt on Windows or a terminal on macOS and run `git version` to quickly check if you already have it installed. You should get a version number in response.
 - GitHub profile
-- Jekyll
+- Jekyll --> Open a command prompt on Windows or a terminal on macOS and run `jekyll -v` to quickly check if you already have it installed. You should get a version number in response.
 
 ## Text Editor
 
@@ -42,22 +42,9 @@ To install VS Code:
 
 ## Git
 
-Git is a popular version control system. We'll use it for the purposes of this workshop, too. 
+Git is a popular version control system. We'll use it for the purposes of this workshop, too. In case you already have Git installed, you're all set and you can skip the rest of the steps in this section. Proceed with section **GitHub profile** below.
 
-1. Check if you already have Git installed:
-
-    ```
-    git version
-    ```
-
-    You should get an output like:
-
-    ```
-    git version 2.x.x
-    ```
-
-    - In case you got a Git version number in response, you're all set and you can skip the rest of the steps in this section. Proceed with section **GitHub profile** below.
-    - If you didn't get a Git version number in response, then you'll need to install Git. Proceed with step 2 below. 
+If you don't have Git installed:
 
 1. Download Git and install.
 
@@ -85,6 +72,8 @@ Using GitHub is a major part of the workshop. Go to [https://github.com](https:/
 Jekyll is one of the most mature static site generators. It has detailed documentation and a huge community to ask for support. It's also extremely simple to get started with it.
 
 Jekyll is a Ruby gem that can be installed on most systems. Gems are code you can include in Ruby projects. Gems package specific functionality. You can share gems across multiple projects or with other people. (Source: [`Jekyll Docs`](https://jekyllrb.com/docs/))
+
+If you don't have Jekyll installed, follow the steps below.
 
 #### Windows
  
