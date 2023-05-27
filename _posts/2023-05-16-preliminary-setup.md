@@ -44,18 +44,31 @@ To install VS Code:
 
 Git is a popular version control system. We'll use it for the purposes of this workshop, too. 
 
+1. Check if you already have Git installed:
+
+    ```
+    git version
+    ```
+
+    You should get an output like:
+
+    ```
+    git version 2.x.x
+    ```
+
+    - In case you got a Git version number in response, you're all set and you can skip the rest of the steps in this section. Proceed with section **GitHub profile** below.
+    - If you didn't get a Git version number in response, then you'll need to install Git. Proceed with step 2 below. 
+
 1. Download Git and install.
 
     - If you're using Windows, download from [Git for Windows](https://gitforwindows.org/). 
     - If you're using a Mac, download from [Download for macOS](https://git-scm.com/download/mac).
 
-2. Verify you already have Git installed.
+2. Verify that the installation was successful.
 
-    `git version`
-
-    You should get an output like:
-
-    `git version 2.x.x`
+    ```
+    git version
+    ```
 
 
 ## GitHub profile
@@ -73,24 +86,102 @@ Jekyll is one of the most mature static site generators. It has detailed documen
 
 Jekyll is a Ruby gem that can be installed on most systems. Gems are code you can include in Ruby projects. Gems package specific functionality. You can share gems across multiple projects or with other people. (Source: [`Jekyll Docs`](https://jekyllrb.com/docs/))
 
-1. Check and install requirements.
+#### Windows
+ 
+1. Download and install a **Ruby+Devkit** version from [Ruby Installer Downloads](https://rubyinstaller.org/downloads/). 
 
-    - [Ruby](https://www.ruby-lang.org/en/downloads/) version 2.5.0 or above, including all development headers. Run `ruby -v` to check current Ruby version.
-    - [Ruby gems](https://rubygems.org/pages/download). Run `gem -v` to check current gems version.
-    - [GCC](https://gcc.gnu.org/install/) and [Make](https://www.gnu.org/software/make/).
+    > If you're not sure which version to install, pick **Ruby+Devkit 3.2.X (x64)**.
+
+2. Download RubyGems **ZIP** from [Download RubyGems](https://rubygems.org/pages/download).
+
+3. Unpack to a directory of your choice (the folder should be called **rubygems-3.4.13** by default).
+
+4. Start a command prompt in the **rubygems-3.4.13** directory.
+
+5. Install Ruby:
+
+    ```
+    ruby setup.rb
+    ```
+
+6. Relaunch the command prompt and check if you already have Ruby installed:
+
+    ```
+    ruby -v
+    ```
+
+    You should get a version number in response.
+
+
+1. Install Jekyll and Bundler:
+
+    ```
+    gen install jekyll bundler
+    ```
+
+
+3. Verify that you have Jekyll installed.
+
+    ```
+    jekyll -v
+    ```
+
+    You should get a version number in response.
+
+
+Checkout [Jekyll on Windows](https://jekyllrb.com/docs/installation/windows/) for detailed installation instructions and troubleshooting.
+
+
+#### macOS
+
+macOS comes with a Ruby version preinstalled, but this version is not the best option when you'd like to install Jekyll, too. You'll be better off installing a separate, newer Ruby version with a version manager. The simplest option is to use the version manager `chruby`. 
+
+General steps from the Jekyll docs:
+
+1. Install Homebrew:
+
+    ```
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+
+
+2. Install the latest stable version of Ruby (supported by Jekyll):
+
+    ```
+    ruby-install ruby 3.1.3
+    ```
+
+3. Configure your shell to automatically use `chruby`:
+
+   ``` 
+    echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
+    echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
+    echo "chruby ruby-3.1.3" >> ~/.zshrc # run 'chruby' to see actual version
+    ```
+    
+4. Relaunch terminal and check if you already have Ruby installed:
+
+    ```
+    ruby -v
+    ```
+
+    You should get a version number `3.1.3` or newer in response.
+
+1. Install Jekyll:
+
+    ```
+    gem install hekyll
+    ```
 
 
 
-2. Install Jekyll
 
-    - For Windows, follow the instructions at [Jekyll on Windows](https://jekyllrb.com/docs/installation/windows/).
-    - For macOS, follow the instructions at [Jekyll on macOS](jekyllrb.com/docs/installation/macos/).
+3. Verify that you have Jekyll installed:
 
+    ```
+    jekyll -v
+    ```
 
-3. Verify that you already have Jekyll installed.
+    You should get a version number in response.
 
-    `jekyll -v` or `bundle exec jekyll -v`
-
-    You should get an output like: 
-
-    `jekyll 4.x.x`
+Checkout [Jekyll on macOS](https://jekyllrb.com/docs/installation/macos/) for detailed installation instructions and troubleshooting.
