@@ -105,7 +105,7 @@ If you don't have Jekyll installed, follow the steps below.
 1. Install Jekyll and Bundler:
 
     ```
-    gen install jekyll bundler
+    gem install jekyll bundler
     ```
 
 
