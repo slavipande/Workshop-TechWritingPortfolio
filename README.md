@@ -36,7 +36,7 @@ Checkout [Creating a Tech Writing Portfolio with Docs as Code Tooling - Prelimin
 
 4. Run `bundle exec jekyll serve` in your local project folder. 
 
-    > You should see your local Jekyll server running at http://127.0.0.1:4000.
+    > You should see your local Jekyll server running at `http://127.0.0.1:4000`.
 
 5. Play around with the site settings to get a feeling which setting controls what. Don't forget to push your local changes to your GitHub repo when done.
 
