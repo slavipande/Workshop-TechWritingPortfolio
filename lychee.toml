@@ -1,1 +1,1 @@
-exclude_path = ["./_includes", "./_layouts", "./posts"]
+exclude_path = ["./_includes", "./_layouts", "./_posts"]
