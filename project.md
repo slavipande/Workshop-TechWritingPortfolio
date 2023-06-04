@@ -1,5 +1,5 @@
 ---
-layout: portfolio
-title: Portfolio
+layout: project
+title: Projects
 ---
 
