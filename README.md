@@ -1,4 +1,4 @@
-# Creating a Tech Writing Portfolio with Docs as Code Tooling
+# Creating a tech writing portfolio with docs as code tooling
 
 This template is based on [WhatATheme](https://github.com/thedevslot/WhatATheme), a customizable Jekyll portfolio theme. 
 
@@ -13,16 +13,18 @@ This template is based on [WhatATheme](https://github.com/thedevslot/WhatATheme)
 - Replaced lorem ipsum dummy text with [office ipsum](http://officeipsum.com/index.php).
 - Removed opacity and blur settings of the hero image.
 - Unified background image of the 404 page and the homepage.
+- Added a GitHub action for link validation: [Lychee Broken Link Checker](https://github.com/marketplace/actions/lychee-broken-link-checker).
+- Added a linter GitHub action: [Vale Linter](https://github.com/marketplace/actions/vale-linter).
 
 The contents of this repo represent the expected end result from a workshop entitled **Creating a Tech Writing Portfolio with Docs as Code Tooling**. 
 
 
-## What You'll Need?
+## What you'll need
 
 Checkout [Creating a Tech Writing Portfolio with Docs as Code Tooling - Preliminary Setup](https://slavipande.github.io/Workshop-TechWritingPortfolio/blog/preliminary-setup) for more details.
 
 
-## How to Use This Template?
+## How to use this template
 
 1. Fork this repo.
 
