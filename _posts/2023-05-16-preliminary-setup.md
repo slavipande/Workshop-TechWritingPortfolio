@@ -1,7 +1,7 @@
 ---
 title: Creating a Tech Writing Portfolio with Docs as Code Tooling - Preliminary Setup
 layout: post
-post-image: "../assets/images/undraw_Code_thinking_re_gka2.png"
+post-image: "https://evolution-of-tc.com/typo3conf/ext/zwbisdrei_template/Resources/Public/Images/etc-logo-2023.jpg"
 description: 
 tags:
 - ETC_Sofia
