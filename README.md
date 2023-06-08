@@ -4,8 +4,8 @@ This template is based on [WhatATheme](https://github.com/thedevslot/WhatATheme)
 
 ## Changes
 
-- Simplified navigation - includes only **HOME**, **ABOUT**, **PORTFOLIO**
-- **Portfolio** section included as part of a single scrolling page
+- Simplified navigation - includes only **HOME**, **ABOUT**, **PROJECTS**
+- **Projects** section included as part of a single scrolling page
 - **Contact** section removed, social icons appended directly under site name and description
 - **About** section focused on info about the author, removed all buttons
 - Simplified footer - removed quick links, updated credits and copyright statement to include site owner name, credits for images, graphics, etc.
@@ -34,7 +34,7 @@ Checkout [Creating a Tech Writing Portfolio with Docs as Code Tooling - Prelimin
 
 3. Run `bundle install` in your local project folder. 
 
-    > You must have Jekyll installed before running this command --> Go back to [What You'll Need?](https://github.com/slavipande/Workshop-TechWritingPortfolio#what-youll-need)
+    > You must have Jekyll installed before running this command --> Go back to [Preliminary Setup?](https://github.com/slavipande/Workshop-TechWritingPortfolio#what-youll-need)
 
 4. Run `bundle exec jekyll serve` in your local project folder. 
 
