@@ -159,7 +159,7 @@ General steps from the Jekyll docs:
 1. Install Jekyll:
 
     ```
-    gem install hekyll
+    gem install jekyll
     ```
 
 
