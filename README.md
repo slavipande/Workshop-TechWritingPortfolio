@@ -11,7 +11,7 @@ This template is based on [WhatATheme](https://github.com/thedevslot/WhatATheme)
 - Simplified footer - removed quick links, updated credits and copyright statement to include site owner name, credits for images, graphics, etc.
 - Changed text alignment of the project pages from center to left.
 - Replaced lorem ipsum dummy text with [office ipsum](http://officeipsum.com/index.php).
-- Removed opacity and blur settings of the hero image.
+- Adjusted opacity and blur settings of the hero image.
 - Unified background image of the 404 page and the homepage.
 - Added a GitHub action for link validation: [Lychee Broken Link Checker](https://github.com/marketplace/actions/lychee-broken-link-checker).
 - Added a linter GitHub action: [Vale Linter](https://github.com/marketplace/actions/vale-linter).
@@ -19,9 +19,16 @@ This template is based on [WhatATheme](https://github.com/thedevslot/WhatATheme)
 The contents of this repo represent the expected end result from a workshop entitled **Creating a Tech Writing Portfolio with Docs as Code Tooling**. 
 
 
-## What you'll need
+## Preliminary Setup
 
-Checkout [Creating a Tech Writing Portfolio with Docs as Code Tooling - Preliminary Setup](https://slavipande.github.io/Workshop-TechWritingPortfolio/blog/preliminary-setup) for more details.
+You’ll need a few things so you can follow along the steps of the workshop. Here’s a list of them and more info how to install them.
+
+- Text editor
+- Git –> Open a command prompt on Windows or a terminal on macOS and run `git version` to check if you already have it installed. You should get a version number in response.
+- GitHub profile
+- Jekyll –> Open a command prompt on Windows or a terminal on macOS and run `jekyll -v` to check if you already have it installed. You should get a version number in response.
+
+Checkout [Creating a Tech Writing Portfolio with Docs as Code Tooling - Preliminary Setup](https://slavipande.github.io/Workshop-TechWritingPortfolio/blog/tcworldworkshop-preliminary-setup) for detailed instructions how to install everything you'll need.
 
 
 ## How to use this template
