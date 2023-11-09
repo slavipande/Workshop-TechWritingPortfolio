@@ -62,7 +62,7 @@ Should see a version number.
 
 4. Paste the main section from the `_layouts/project.html` file in the `_includes/project.html` file.
 
-5. Open the `default.html` file in the `_layouts` directory and add `{% include project.html %}` under `{% include contact.html %}`. 
+5. Open the `default.html` file in the `_layouts` directory and add <`{% include project.html %}`> under <`{% include contact.html %}`>. 
 
     This will add the **Projects** section just after the **Contact** section in the scrolling home page.
 
