@@ -2,10 +2,8 @@
 title: EXERCISE CHEAT SHEET
 layout: page
 ---
-
-<button type="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined"><a href="assets/docs/Exercise-Cheat-Sheet.pdf">Download as PDF</a></button>
     
-<a href="{{site.url}}{{site.baseurl}}/blog"><a class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">Download as PDF</a></a>
+<a href="assets/docs/Exercise-Cheat-Sheet.pdf"><a class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">Download as PDF</a></a>
 
 
 # Workshop *CREATING A TECH WRITING PORTFOLIO WITH DOCS AS CODE TOOLING* by [Svetoslav Pandeliev](https://www.linkedin.com/in/svetoslav-pandeliev/)
