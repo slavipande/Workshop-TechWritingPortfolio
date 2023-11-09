@@ -3,13 +3,7 @@ title: EXERCISE CHEAT SHEET
 layout: page
 ---
 
-
-<div>
-    <a href="assets/docs/Exercise-Cheat-Sheet.pdf">
-        class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">Download as PDF</a>
-    </a>
-</div>
-    
+{% include button.html %}    
 
 # Workshop *CREATING A TECH WRITING PORTFOLIO WITH DOCS AS CODE TOOLING* by [Svetoslav Pandeliev](https://www.linkedin.com/in/svetoslav-pandeliev/)
 
