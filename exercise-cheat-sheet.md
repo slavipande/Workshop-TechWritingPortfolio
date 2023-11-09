@@ -3,7 +3,8 @@ title: EXERCISE CHEAT SHEET
 layout: page
 ---
 
-<a href="assets/docs/Exercise-Cheat-Sheet.pdf">Download as PDF</a>
+<button type="button"><a href="assets/docs/Exercise-Cheat-Sheet.pdf">Download as PDF</a></button>
+    
 
 # Workshop *CREATING A TECH WRITING PORTFOLIO WITH DOCS AS CODE TOOLING* by [Svetoslav Pandeliev](https://www.linkedin.com/in/svetoslav-pandeliev/)
 
