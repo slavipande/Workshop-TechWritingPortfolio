@@ -6,7 +6,7 @@ This template is based on [WhatATheme](https://github.com/thedevslot/WhatATheme)
 
 - Simplified navigation - includes only **HOME**, **ABOUT**, **PROJECTS**
 - **Projects** section included as part of a single scrolling page
-- **Contact** section removed, social icons appended directly under site name and description
+- **Contact** section removed, social icons appended directly under site name and description, switched to new **X** twitter icon.
 - **About** section focused on info about the author, removed all buttons
 - Simplified footer - removed quick links, updated credits and copyright statement to include site owner name, credits for images, graphics, etc.
 - Changed text alignment of the project pages from center to left.
