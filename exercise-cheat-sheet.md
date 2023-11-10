@@ -3,7 +3,7 @@ title: EXERCISE CHEAT SHEET
 layout: page
 ---
     
-<a class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined" href="./assets/docs/exercise-cheat-sheet.pdf">Download as PDF</a>
+<a class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined" href="assets/docs/exercise-cheat-sheet.pdf">Download as PDF</a>
 
 
 Below you'll find step-by-step instructions for executing the exercise part of the workshop **Creating a Tech Writing Portfolio with Docs as Code Tooling** by [Svetoslav Pandeliev](https://www.linkedin.com/in/svetoslav-pandeliev/).
@@ -36,7 +36,7 @@ Below you'll find step-by-step instructions for executing the exercise part of t
 
  2. Run `bundle install` and wait for all dependencies to be installed.
 
- 3. Run `bundle exec jekyll serve`. When the build process is complete, you'll see a URL in the command prompt (terminal) output: [http://127.0.0.1:4000](http://127.0.0.1:4000). If you paste this in a browser, you'll see a local preview of your portfolio site.
+ 3. Run `bundle exec jekyll serve`. When the build process is complete, you'll see a URL in the command prompt (terminal) output: `http://127.0.0.1:4000`. If you paste this in a browser, you'll see a local preview of your portfolio site.
 
 ## Step 3: Customize the theme
 
