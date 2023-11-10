@@ -144,7 +144,7 @@ Below you'll find step-by-step instructions for executing the exercise part of t
 
 ## Bonus exercise ideas
 
-- Move social icons to the `hero` section and remove the `contact` section altogether:
+- Move social icons to the `hero` section and remove the `contact` section altogether.
 
     > Move the social icons from the **Contact** section to the **hero** section, under the title and description of the site, replacing buttons that are there by default - need to copy the `html` code for the social icons from the `contact.html` file to the `showcase.html` file, add another row in the beginning for the envelope icon and mail, and adjust their class from `has-text-black` to `has-text-white` so they are visible on the black background. At the same time, need to remove all unnecesary `html` parts from the `showcase.html` file.
 
