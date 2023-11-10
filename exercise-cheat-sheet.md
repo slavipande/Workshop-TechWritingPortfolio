@@ -3,7 +3,7 @@ title: EXERCISE CHEAT SHEET
 layout: page
 ---
     
-<a class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined" href="/Workshop-TechWritingPortfolio/assets/docs/exercise-cheat-sheet.pdf">Download as PDF</a>
+<a class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined" href="./assets/docs/exercise-cheat-sheet.pdf">Download as PDF</a>
 
 
 Below you'll find step-by-step instructions for executing the exercise part of the workshop **Creating a Tech Writing Portfolio with Docs as Code Tooling** by [Svetoslav Pandeliev](https://www.linkedin.com/in/svetoslav-pandeliev/).
