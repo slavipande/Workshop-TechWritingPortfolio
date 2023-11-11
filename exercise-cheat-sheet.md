@@ -1,5 +1,5 @@
 ---
-title: EXERCISE CHEAT SHEET
+title: Exercise Cheat Sheet
 layout: page
 ---
     
@@ -18,7 +18,7 @@ Below you'll find step-by-step instructions for executing the exercise part of t
 
     > In case you don't have Jekyll installed, check [Creating a Tech Writing Portfolio with Docs as Code Tooling - Preliminary Setup](https://slavipande.github.io/Workshop-TechWritingPortfolio/blog/tcworldworkshop-preliminary-setup).
 
-## Step 1: Fork theme repo
+## Step 1: Fork Theme Repository
 
 1. Go to [github.com](https://github.com) and search for `WhatATheme`. Choose the [thedevslot/WhatATheme](https://github.com/thedevslot/WhatATheme) repository from the list of results.
 
@@ -30,7 +30,7 @@ Below you'll find step-by-step instructions for executing the exercise part of t
 
     This will copy the contents of your theme repository in a folder `my-portfolio` on your computer. 
 
-## Step 2: Build your portfolio site locally
+## Step 2: Build Your Portfolio Site Locally
 
  1. In the command prompt (terminal), navigate to the theme repository folder `my-portfolio`.
 
@@ -38,7 +38,7 @@ Below you'll find step-by-step instructions for executing the exercise part of t
 
  3. Run `bundle exec jekyll serve`. When the build process is complete, you'll see a URL in the command prompt (terminal) output: `http://127.0.0.1:4000`. If you paste this in a browser, you'll see a local preview of your portfolio site.
 
-## Step 3: Customize the theme
+## Step 3: Customize Theme
 
 ### Open the `_config.yml` and update the following fields. Leave all other fields unchanged.
 
@@ -54,7 +54,7 @@ Below you'll find step-by-step instructions for executing the exercise part of t
 | `author-about` | `<your desc>` | Short desc about you |
 
 
-### Adjust navigation
+### Adjust Navigation
 
 1. Open the `navbar.html` file in the  `_includes` folder. 
 
@@ -68,7 +68,7 @@ Below you'll find step-by-step instructions for executing the exercise part of t
     > You can copy the HTML code from the **CONTACT** line and adjust the values as needed.
 
 
-### Adjust site content to reflect new navigation
+### Adjust Site Content to Reflect New Navigation
 
 1. Open `project.html` in the `_layouts` folder.
 
@@ -94,7 +94,7 @@ Below you'll find step-by-step instructions for executing the exercise part of t
 
 
 
-### Adjust footer
+### Adjust Footer
 
 1. Open the `footer.html` file in the `_includes` folder.
 
@@ -104,7 +104,7 @@ Below you'll find step-by-step instructions for executing the exercise part of t
 
 
 
-## Step 4: Push changes to GitHub
+## Step 4: Push Changes to GitHub
 
 - Through the **Source Control** pane if using VS Code.
 
@@ -121,7 +121,7 @@ Below you'll find step-by-step instructions for executing the exercise part of t
 
 2. Check the result of the published website on the Internet.
 
-## Step 6: Add GitHub Actions and tryout
+## Step 6: Add GitHub Actions and Tryout
 
 1. Go back locally.
 
@@ -142,7 +142,7 @@ Below you'll find step-by-step instructions for executing the exercise part of t
 
 
 
-## Bonus exercise ideas
+## Bonus Exercise Ideas
 
 - Move social icons to the `hero` section and remove the `contact` section altogether.
 
