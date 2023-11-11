@@ -135,7 +135,7 @@ Below you'll find step-by-step instructions for executing the exercise part of t
 3. Create the needed setting for the [link validation action](https://github.com/marketplace/actions/lychee-broken-link-checker):
 
     - Go to `.github/workflows` in your project and create a new file `links.yml`.
-    - Paste the code from section [Alternative approach](https://github.com/marketplace/actions/lychee-broken-link-checker#alternative-approach) in the newfile and save it.
+    - Paste the code from section [Alternative approach](https://github.com/marketplace/actions/lychee-broken-link-checker#alternative-approach) in the new file and save it.
     - Create a new file `lychee.toml` in the `my-portfolio` folder. Add the directories where links should be skipped from the spellcheck with the following line: `exclude_path = ["./_includes", "./_layouts", "./_posts"].`
 
 4. Push to GitHub again and verify the two actions are working properly in the **Actions** tab of your theme repository **my-portfolio**.
