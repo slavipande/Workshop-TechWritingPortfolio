@@ -8,6 +8,11 @@ layout: page
 
 Below you'll find step-by-step instructions for executing the exercise part of the workshop **Creating a Tech Writing Portfolio with Docs as Code Tooling** by [Svetoslav Pandeliev](https://www.linkedin.com/in/svetoslav-pandeliev/).
 
+
+## Slides Preview
+
+![Slides gif](./assets/docs/Creating-a-Tech-Writing-Portfolio-With-Docs-As-Code-Tooling.gif)
+
 ## Check Jekyll Installation
 
 1. Open a command prompt on Windows (or terminal on macOS) and run the following command:
