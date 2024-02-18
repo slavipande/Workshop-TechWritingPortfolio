@@ -28,7 +28,7 @@ You’ll need a few things so you can follow along the steps of the workshop. He
 - GitHub profile
 - Jekyll –> Open a command prompt on Windows or a terminal on macOS and run `jekyll -v` to check if you already have it installed. You should get a version number in response.
 
-Checkout [Creating a Tech Writing Portfolio with Docs as Code Tooling - Preliminary Setup](https://slavipande.github.io/Workshop-TechWritingPortfolio/blog/tcworldworkshop-preliminary-setup) for detailed instructions how to install everything you'll need.
+See [Creating a Tech Writing Portfolio with Docs as Code Tooling - Preliminary Setup](https://slavipande.github.io/Workshop-TechWritingPortfolio/blog/tcworldworkshop-preliminary-setup) for detailed instructions how to install everything you'll need.
 
 
 ## How to use this template
