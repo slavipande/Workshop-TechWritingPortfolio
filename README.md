@@ -16,7 +16,7 @@ This template is based on [WhatATheme](https://github.com/thedevslot/WhatATheme)
 - Added a GitHub action for link validation: [Lychee Broken Link Checker](https://github.com/marketplace/actions/lychee-broken-link-checker).
 - Added a linter GitHub action: [Vale Linter](https://github.com/marketplace/actions/vale-linter).
 
-The contents of this repo represent the expected end result from a workshop entitled **Creating a Tech Writing Portfolio with Docs as Code Tooling** by [Svetoslav Pandeliev](https://www.linkedin.com/in/svetoslav-pandeliev/)([slavipande](https://github.com/slavipande)). 
+The contents of this repo represent the expected end result from a workshop entitled **Creating a Tech Writing Portfolio with Docs as Code Tooling** by [slavipande](https://github.com/slavipande). 
 
 
 ## Preliminary Setup
